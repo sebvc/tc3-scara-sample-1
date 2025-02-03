@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_CalculateLinkageArm" Id="{f1d824dd-56a0-487f-bb71-23c2352858b4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_CalculateLinkageArm
+VAR_INPUT
+		x0 : REAL; 			(* Origin x-coordinate *)
+        y0 : REAL; 			(* Origin y-coordinate *)
+        theta : LREAL ;		(* Angle in degrees *)
+        L : REAL ;			(* Length of the line *)
+
+END_VAR
+
+VAR_OUTPUT
+	    x1 : REAL;			(* End x-coordinate *)
+        y1 : REAL;			(* End y-coordinate *)
+END_VAR
+VAR
+	        theta_rad : REAL;	(* Angle in radians *)
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[    theta_rad := theta * 3.14159265358979 / 180.0;  
+
+	x1 := x0 + L * COS(theta_rad);
+	y1 := y0 + L * SIN(theta_rad);]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

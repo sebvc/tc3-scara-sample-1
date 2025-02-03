@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="GVL" Id="{df97b2e6-9a2a-4822-a4bd-d9401ba7e0fb}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+	stGroupRef : AXES_GROUP_REF;
+	{attribute 'TcInitSymbol'}  oidConveyorBelt : MC_COORD_REF;
+
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

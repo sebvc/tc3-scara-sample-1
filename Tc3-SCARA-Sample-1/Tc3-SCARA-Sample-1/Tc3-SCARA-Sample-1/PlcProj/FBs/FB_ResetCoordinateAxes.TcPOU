@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_ResetCoordinateAxes" Id="{2e18fa54-805e-4fb3-8544-8da9413769a8}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_ResetCoordinateAxes
+VAR_INPUT
+	resetAxes: BOOL := TRUE;
+END_VAR
+VAR_OUTPUT
+	allAxesReset: BOOL := FALSE;
+	error : BOOL;
+	errorID : INT;
+END_VAR
+VAR_IN_OUT
+	io_X: AXIS_REF;
+	io_Y: AXIS_REF;
+	io_Z: AXIS_REF;
+	io_C: AXIS_REF;	
+END_VAR
+VAR
+	fbResetX: MC_Reset;
+	fbResetY: MC_Reset;
+	fbResetZ: MC_Reset;
+	fbResetC: MC_Reset;	
+	fbResetM1: MC_Reset;
+	fbResetM2: MC_Reset;
+	fbResetM3: MC_Reset;
+	fbResetM4: MC_Reset;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+io_X.ReadStatus();
+io_Y.ReadStatus();
+io_Z.ReadStatus();
+io_C.ReadStatus();
+
+
+fbResetX(
+	Execute:=resetAxes, 
+	Axis:=io_X, 
+	Done=> , 
+	Busy=> , 
+	Error=> , 
+	ErrorID=> );
+	
+fbResetY(
+	Execute:= fbResetX.Done, 
+	Axis:=io_Y, 
+	Done=> , 
+	Busy=> , 
+	Error=> , 
+	ErrorID=> );
+	
+fbResetZ(
+	Execute:= fbResetY.Done, 
+	Axis:=io_Z, 
+	Done=> , 
+	Busy=> , 
+	Error=> , 
+	ErrorID=>  );
+	
+fbResetC(
+	Execute:= fbResetZ.Done, 
+	Axis:=io_C, 
+	Done=> allAxesReset, 
+	Busy=> , 
+	Error=> , 
+	ErrorID=>  );]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
