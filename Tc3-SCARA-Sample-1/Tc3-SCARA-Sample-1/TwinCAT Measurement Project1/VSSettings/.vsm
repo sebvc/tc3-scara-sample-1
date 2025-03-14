@@ -1,0 +1,422 @@
+<Node>
+  <Title>TwinCAT Measurement Project1</Title>
+  <Expanded>False</Expanded>
+  <FileName></FileName>
+  <Children>
+    <Node>
+      <Title>XY Scope Project</Title>
+      <Expanded>True</Expanded>
+      <FileName>C:\Users\sebastianv\Documents\GitHub\tc3-scara-sample-1\Tc3-SCARA-Sample-1\Tc3-SCARA-Sample-1\TwinCAT Measurement Project1\XY Scope Project.tcscopex</FileName>
+      <Children>
+        <Node>
+          <Title>DataPool</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>ActPos (M1)</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>ActPos (M2)</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>ActPos (M4)</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>aTargetPos[1]</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>aTargetPos[2]</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>inner_arm_x0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>inner_arm_y0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>outer_arm_x0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>outer_arm_y0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>third_arm_x0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>third_arm_x1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>third_arm_y0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>third_arm_y1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>z0</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>inner_arm_x1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>inner_arm_y1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>outer_arm_y1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>outer_arm_x1</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>X_ActPos</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>Y_ActPos</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>XY Chart</Title>
+          <Expanded>True</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>Robot Linkages</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>Inner_arm</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: inner_arm_x1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: inner_arm_y1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>Outer_arm</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: outer_arm_x1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: outer_arm_y1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>Third_arm</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: third_arm_x1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: third_arm_y1</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>_Origin marker</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>InnerLink</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>OuterLink</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+                <Node>
+                  <Title>ThirdLink</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Title>MCS</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>Target Pos_MCS</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: aTargetPos[1]</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: aTargetPos[2]</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>XY_MCS</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: X_ActPos</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: Y_ActPos</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>YT Chart</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>M4</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>ActPos (M4)</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Title>M1</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>ActPos (M1)</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Title>M2</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>ActPos (M2)</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>XYZ Chart</Title>
+          <Expanded>True</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>Axis Group</Title>
+              <Expanded>True</Expanded>
+              <FileName></FileName>
+              <Children>
+                <Node>
+                  <Title>inner_arm_x1, inner_arm_y1, z0</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: inner_arm_x1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: inner_arm_y1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Z: z0</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>outer_arm_x1, outer_arm_y1, z0</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: outer_arm_x1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: outer_arm_y1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Z: z0 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>third_arm_x1, third_arm_y1, z0</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>X: third_arm_x1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Y: third_arm_y1 (1)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>Z: z0 (2)</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Title>Trigger</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children />
+        </Node>
+      </Children>
+    </Node>
+  </Children>
+</Node>

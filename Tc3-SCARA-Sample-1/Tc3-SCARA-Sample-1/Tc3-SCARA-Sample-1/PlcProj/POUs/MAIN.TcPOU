@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.14">
   <POU Name="MAIN" Id="{fbd90d20-4b58-4f0a-bd6d-ee42c96865f1}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	
-	inner_arm : FB_CalculateLinkageArm;
-	outer_arm : FB_CalculateLinkageArm;
+	inner_arm : FB_CalculateLinkageArm; // for HMI and Scope
+	outer_arm : FB_CalculateLinkageArm; // for HMI and Scope
+	third_arm : FB_CalculateLinkageArm; // for Scope
+	z0: REAL := 0; // for 3d scope chart
 	
 	io_X:	AXIS_REF;
 	io_Y:	AXIS_REF;
@@ -163,6 +165,15 @@ END_VAR
 		L:= 190, 
 		x1=> , 
 		y1=> );
+	third_arm(
+		x0:= outer_arm.x1, 
+		y0:= outer_arm.y1, 
+		theta:= io_M4.NcToPlc.ActPos, 
+		L:= 75, 
+		x1=> , 
+		y1=> );
+	z0;
+	
 
 // Axis Ref Read Status
 	io_X.ReadStatus();
